@@ -5,7 +5,7 @@ function Nav(){
 return(
 <Navbar
   alignLinks="right"
-  brand={<a className="brand-logo" href="#">Logo</a>}
+  brand={<a className="brand-logo" href="#">Annalisa Bauer</a>}
   centerChildren
   id="mobile-nav"
   menuIcon={<Icon>menu</Icon>}
@@ -22,10 +22,16 @@ return(
   }}
 >
   <NavItem href="">
-    Getting started
+    About Me
   </NavItem>
-  <NavItem href="components.html">
-    Components
+  <NavItem href="">
+    Portfolio
+  </NavItem>
+  <NavItem href="">
+   Contact
+  </NavItem>
+  <NavItem href="">
+    Resume
   </NavItem>
 </Navbar>
 );
