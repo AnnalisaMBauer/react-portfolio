@@ -10,7 +10,7 @@ return(
   >
     <Card
       actions={[
-        <a key="1" href="https://fitness--trackerr.herokuapp.com/?id=6179ad6e3690ed0016e0af73">This is a Link</a>
+        <a key="1" href="https://fitness--trackerr.herokuapp.com/?id=6179ad6e3690ed0016e0af73">Deployed Application</a>
       ]}
       closeIcon={<Icon>close</Icon>}
       header={<CardTitle image="https://user-images.githubusercontent.com/87721575/138014305-8e6fbfcd-a3e0-4a0b-b9bf-8e30c9ae88b3.png">Deployed Application</CardTitle>}
