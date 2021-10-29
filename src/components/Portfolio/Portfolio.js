@@ -16,22 +16,7 @@ return(
       header={<CardTitle image="https://user-images.githubusercontent.com/87721575/138014305-8e6fbfcd-a3e0-4a0b-b9bf-8e30c9ae88b3.png">Deployed Application</CardTitle>}
       revealIcon={<Icon>more_vert</Icon>}
     >
-      Here is the standard card with an image thumbnail.
-    </Card>
-  </Col>
-  <Col
-    m={6}
-    s={12}
-  >
-    <Card
-      actions={[
-        <a key="1" href="#">This is a Link</a>
-      ]}
-      closeIcon={<Icon>close</Icon>}
-      header={<CardTitle image="https://materializecss.com/images/sample-1.jpg">Deployed Application</CardTitle>}
-      revealIcon={<Icon>more_vert</Icon>}
-    >
-      Here is the standard card with an image thumbnail.
+  In this web application a user will be able to create and track daily workouts. They will be able to log multiple exercises in a workout on a given day. They will also be able to track the name, type, weight, sets, reps, and duration of exercise. For cardio exercises they will also be able to track the distance traveled.
     </Card>
   </Col>
   <Col
@@ -43,10 +28,26 @@ return(
         <a key="1" href="https://mbelfrom.github.io/group-project-mag/">Deployed Application</a>
       ]}
       closeIcon={<Icon>close</Icon>}
-      header={<CardTitle image="https://user-images.githubusercontent.com/87721575/132913782-9d9b3185-3846-444c-8ef1-0ed828521688.png">Feeling Hungry</CardTitle>}
+      header={<CardTitle image="https://user-images.githubusercontent.com/87721575/132913782-9d9b3185-3846-444c-8ef1-0ed828521688.png"
+      height='80'>Feeling Hungry</CardTitle>}
       revealIcon={<Icon>more_vert</Icon>}
     >
   Have you ever been stuck not knowing what to eat for dinner? Our web app will generate a recipe for you. Just choose from chicken, beef, or vegan options and a recipe will generate. Too tired to cook? Our web app will also suggest the nearest restaurant to you. You also have the option to add and remove your favorite recipes.
+    </Card>
+  </Col>
+  <Col
+    m={6}
+    s={12}
+  >
+    <Card
+      actions={[
+        <a key="1" href="#">This is a Link</a>
+      ]}
+      closeIcon={<Icon>close</Icon>}
+      header={<CardTitle image="https://github.com/AnnalisaMBauer/react-portfolio/blob/main/src/img/Team%20Profile%20Generator.PNG?raw=true">Deployed Application</CardTitle>}
+      revealIcon={<Icon>more_vert</Icon>}
+    >
+     This application takes in information about employees on a software engineering team and will then generate an HTML webpage that displays summaries and information for each person.
     </Card>
   </Col>
   <Col
