@@ -1,35 +1,15 @@
 import React from 'react';
-import {Navbar, NavItem, Icon} from 'react-materialize'
+import {Footer} from 'react-materialize'
 
 function Foot(){
 return(
-<Navbar className="avatar"
-  alignLinks="left"
-  brand={<a className="brand-logo" href="https://github.com/AnnalisaMBauer">GitHub</a>}
-  centerLogo
-  id="mobile-nav"
-  menuIcon={<Icon>menu</Icon>}
-  options={{
-    draggable: true,
-    edge: 'left',
-    inDuration: 250,
-    onCloseEnd: null,
-    onCloseStart: null,
-    onOpenEnd: null,
-    onOpenStart: null,
-    outDuration: 200,
-    preventScrolling: true
-  }}
+<Footer
+  className="example"
+  copyrights="Coded by Annalisa Bauer"
+  links={<ul id="footer"><li><a className="grey-text text-lighten-3" href="https://github.com/AnnalisaMBauer">GitHub</a></li><li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/annalisa-bauer/">LinkedIn</a></li><li><a className="grey-text text-lighten-3" href="mailto:annalisa.bauer1@gmail.com">annalisa.bauer1@gmail.com</a></li></ul>}
   
 >
-<NavItem className="avatar">
-        <img
-          alt="github cat"
-          className="circle"
-          src="https://github.com/AnnalisaMBauer/react-portfolio/blob/main/src/img/GitHub-Mark-Light-120px-plus.png?raw=true"
-        />
- </NavItem>
-</Navbar>
+</Footer>
 );
 }
 
