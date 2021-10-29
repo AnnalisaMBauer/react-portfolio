@@ -31,6 +31,6 @@ To contribute to the project please fork this repo and clone this project to you
 ![image](https://user-images.githubusercontent.com/87721575/139359043-202d9360-38ac-4164-8dfd-7d5daf20589b.png)
 
 ## Contact
-Please contact me at annalisa.bauer1@gmail.com with any questions or concerns. A copy of the deployed application can be seen at the following 
+Please contact me at annalisa.bauer1@gmail.com with any questions or concerns. A copy of the deployed application can be seen at the following https://react-portfolio-annalisa.herokuapp.com/
 
 
