@@ -1,20 +1,35 @@
 import React from 'react';
-import {Footer, Icon} from 'react-materialize'
+import {Navbar, NavItem, Icon} from 'react-materialize'
 
 function Foot(){
 return(
-<Footer
-  className="example"
+<Navbar className="avatar"
+  alignLinks="left"
+  brand={<a className="brand-logo" href="https://github.com/AnnalisaMBauer">GitHub</a>}
+  centerLogo
+  id="mobile-nav"
+  menuIcon={<Icon>menu</Icon>}
+  options={{
+    draggable: true,
+    edge: 'left',
+    inDuration: 250,
+    onCloseEnd: null,
+    onCloseStart: null,
+    onOpenEnd: null,
+    onOpenStart: null,
+    outDuration: 200,
+    preventScrolling: true
+  }}
   
-  links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li></ul>}
 >
-  <h5 className="white-text">
- </h5>
-   image={ <img alt='' src=''/>}
-  <p className="grey-text text-lighten-4">
-    You can use rows and columns here to organize your footer content.
-  </p>
-</Footer>
+<NavItem className="avatar">
+        <img
+          alt="github cat"
+          className="circle"
+          src="https://github.com/AnnalisaMBauer/react-portfolio/blob/main/src/img/GitHub-Mark-Light-120px-plus.png?raw=true"
+        />
+ </NavItem>
+</Navbar>
 );
 }
 

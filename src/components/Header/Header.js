@@ -16,7 +16,7 @@ return (
 >
   <Slide image={<img alt="Feeling Hungry App" src="https://user-images.githubusercontent.com/87721575/132913782-9d9b3185-3846-444c-8ef1-0ed828521688.png"/>}>
     <Caption placement="center">
-      <h3>
+      <h3 href='https://mbelfrom.github.io/group-project-mag/'>
         Feeling Hungry?
       </h3>
       <h5 className="light grey-text text-lighten-3">
@@ -26,7 +26,7 @@ return (
   </Slide>
   <Slide image={<img alt="Coding Jobs App" src="https://github.com/AnnalisaMBauer/react-portfolio/blob/main/src/img/project2.png?raw=true"/>}>
     <Caption placement="left">
-      <h3>
+      <h3 href='https://coding-jobs-345234.herokuapp.com'>
         Coding Jobs
       </h3>
       <h5 className="light grey-text text-lighten-3">

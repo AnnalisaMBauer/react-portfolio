@@ -2,19 +2,28 @@ import React from 'react';
 import Navbar from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Port from './components/Portfolio/Portfolio';
+import Profile from './components/ProfileImage/ProfileImg';
+import About from './components/AboutMe/AboutMe'
+import Portfolio from './components/Portfolio/Portfolio';
 
 
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
   return (
     <div>
       <Navbar />
       <Header />
-      <Port/>
+ 
+    <div class='container'>  <div class="row">
+              <div class="col s6"><Profile/></div>
+              <div class="col s6"><About/></div>
+              </div></div>
+              <div class='container'>  <div class="row">
+              <div class="col s12"><Portfolio/></div>
+              
+              </div></div>
      <Footer/>
-    </div>
-  );
+     </div>
+     );
 }
 
 export default App;
