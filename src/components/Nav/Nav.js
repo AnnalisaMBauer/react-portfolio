@@ -22,7 +22,7 @@ return(
   }}
 >
   <NavItem href="">
-    About Me
+  About Me
   </NavItem>
   <NavItem href="">
     Portfolio
@@ -33,6 +33,7 @@ return(
   <NavItem href="">
     Resume
   </NavItem>
+  <Icon>menu</Icon> 
 </Navbar>
 );
 }

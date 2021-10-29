@@ -4,6 +4,8 @@ import {Slider, Slide, Caption} from 'react-materialize';
 function Header(){
 return (
 <Slider
+
+  className='z-depth-1'
   fullscreen={false}
   options={{
     duration: 500,
@@ -12,7 +14,7 @@ return (
     interval: 6000
   }}
 >
-  <Slide image={<img alt="" src="https://user-images.githubusercontent.com/87721575/132913782-9d9b3185-3846-444c-8ef1-0ed828521688.png"/>}>
+  <Slide image={<img alt="Feeling Hungry App" src="https://user-images.githubusercontent.com/87721575/132913782-9d9b3185-3846-444c-8ef1-0ed828521688.png"/>}>
     <Caption placement="center">
       <h3>
         Feeling Hungry?
@@ -22,7 +24,7 @@ return (
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="https://user-images.githubusercontent.com/87721575/136629029-62e2a0b9-0c0e-4ff4-9b00-c623b92e20eb.mp4"/>}>
+  <Slide image={<img alt="Coding Jobs App" src="https://github.com/AnnalisaMBauer/react-portfolio/blob/main/src/img/project2.png?raw=true"/>}>
     <Caption placement="left">
       <h3>
         Coding Jobs
@@ -32,23 +34,13 @@ return (
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="https://lorempixel.com/780/580/nature/3"/>}>
+  <Slide image={<img alt="Project 3" src="https://lorempixel.com/780/580/nature/3"/>}>
     <Caption placement="right">
       <h3>
-        Right Aligned Caption
+        Project 3
       </h3>
       <h5 className="light grey-text text-lighten-3">
-        Here's our small slogan.
-      </h5>
-    </Caption>
-  </Slide>
-  <Slide image={<img alt="" src="https://lorempixel.com/580/250/nature/4"/>}>
-    <Caption placement="center">
-      <h3>
-        This is our big Tagline!
-      </h3>
-      <h5 className="light grey-text text-lighten-3">
-        Here's our small slogan.
+        Project 3 information
       </h5>
     </Caption>
   </Slide>
