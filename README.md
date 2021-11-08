@@ -1,4 +1,4 @@
-# React Protfolio
+# React Portfolio
 
 ## Description
 In this homework I was challenged in building a react portfolio.
